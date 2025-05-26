@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buddy Cat</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: sans-serif;
+      background: #a8d8c9;
+      color: #333;
+      text-align: center;
+    }
+
+    img.logo {
+      max-width: 200px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+
+    .links {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+      flex-direction: column;
+    }
+
+    .links a:hover {
+      background: #eee;
+    }
+
+    .links img.icon {
+      width: 100px;
+      height: 100px;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Buddy Cat Logo" class="logo" />
+  <h1>Buddy Cat</h1>
+  <div class="links">
+    <a href="https://www.etsy.com/shop/BuddyCatIRL?ref=buddycat.ie" target="_blank"><img src="etsy.svg" alt="Etsy" class="icon" />Visit us on Etsy</a>
+    <a href="https://www.ebay.ie/usr/buddycatirl" target="_blank"><img src="ebay.svg" alt="eBay" class="icon" />Visit us on eBay</a>
+    <!-- Add more links here if you decide on Ko-fi, Gumroad, etc. -->
+  </div>
+
+  <footer>
+    &copy; 2025 Buddy Cat. All rights reserved.
+  </footer>
+</body>
+</html>
